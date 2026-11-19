@@ -1,0 +1,10 @@
+[package]
+name = "sigmaos-keyring-manager"
+version = "0.1.0"
+edition = "2021"
+description = "Secure credential storage for SigmaOS"
+license = "MIT"
+
+[lib]
+name = "sigmaos_keyring_manager"
+path = "src/lib.rs"
