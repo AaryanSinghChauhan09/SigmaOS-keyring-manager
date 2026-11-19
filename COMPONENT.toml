@@ -1,0 +1,18 @@
+[component]
+name = "SigmaOS-keyring-manager"
+description = "Secure credential storage with hardware-backed keyring support"
+repo = "https://github.com/AaryanSinghChauhan09/SigmaOS-keyring-manager"
+engine = "keyring_manager"
+category = "System Services"
+language = "rust"
+visibility = "public"
+depends_on = []
+provides = ["credential-storage", "keyring", "secrets-management"]
+
+[contract]
+provides = ["credential-storage", "keyring", "secrets-management"]
+depends_on = []
+
+[maturity]
+status = "stable"
+version = "1.0.0"
